@@ -29,9 +29,9 @@
                 <p class="ui big header">{{ todo.id }} | {{ todo.title }}</p>
 
                 {% if todo.complete == False %}
-                <span class="ui gray label">Not Complete</span>
+                    <span class="ui gray label">Not Complete</span>
                 {% else %}
-                <span class="ui green label">Complete</span>
+                    <span class="ui green label">Complete</span>
                 {% endif %}
 
                 <a class="ui blue button" href="/update/{{ todo.id }}">Update</a>
